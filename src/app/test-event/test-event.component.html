@@ -1,0 +1,19 @@
+<h1 class="display-4">We are in test-evet compmonent</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6"><button class="btn-btn1" (click)="onClick()">Greet</button></div>
+        <div class="col-sm-6"><label for="msg"><h2 >{{greeting}}</h2></label></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6"><input #myValue type="text" class="form-control" placeholder="Enter you name here"></div>
+        <div class="col-sm-6"><button class="btn-btn2" (click)="logClick(myValue.value)">Log</button></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6"><input [(ngModel)] = "name" type="text" class="form-control" placeholder="Enter you name here"></div>
+        <div class="col-sm-6"><h3>{{name}}</h3></div>
+    </div>
+</div>

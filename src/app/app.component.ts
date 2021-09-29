@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'event-binding';
+  title = 'This angular project is on testing purpose for event handling';
 }
